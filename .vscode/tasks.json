@@ -4,7 +4,7 @@
         {
             "label": "Git Auto Commit & Push",
             "type": "shell",
-            "command": "git add .; git commit -m 'Auto commit'; git push",
+            "command": "git add .; git commit -m 'Auto commit'; git push --set-upstream origin main",
             "problemMatcher": [],
             "group": {
                 "kind": "build",
